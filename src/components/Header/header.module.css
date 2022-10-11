@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .header{
@@ -40,3 +41,86 @@
 .search{
     cursor: pointer;
 }
+
+.main{
+    margin-top: 8%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.information h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+}
+
+.information h2{
+    width: 429px;
+    height: 96px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6C6B6B;
+}
+
+.button{
+    margin-top: 5%;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn_main{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 46px;
+    background: #FF3C78;
+    border-radius: 4px;
+    border: none;
+    box-shadow: #FF3C78 0px 10px 15px -3px, #FF3C78 0px 4px 6px -2px;
+}
+
+.heart {
+    background-color: #FF3C78;
+    display: inline-block;
+    height: 22px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 22px;
+}
+  
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: #FF3C78;
+    border-radius: 50%;
+    height: 22px;
+    position: absolute;
+    width: 22px;
+}
+  
+.heart:before {
+    top: -15px;
+    left: 0;
+}
+  
+.heart:after {
+    left: 15px;
+    top: 0;
+}
+
