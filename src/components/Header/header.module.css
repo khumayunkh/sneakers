@@ -43,10 +43,15 @@
 }
 
 .main{
-    margin-top: 8%;
     width: 80%;
+    height: 800px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-image: url('./../../img/yellow_sneakers.png');
+    background-size: 1000px;
+    background-position: 600px -160px;
+    background-repeat: no-repeat;
 }
 
 .information h1{
@@ -189,5 +194,45 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
+    color: #6C6B6B;
+}
+
+.client{
+    width: 50%;
+}
+
+.client_in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 289px;
+    height: 70px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(64, 103, 254, 0.15);
+    border-radius: 32px;
+    line-height: 15px;
+    padding-left: 1%;
+    margin-left: -30%;
+    margin-top: 10%;
+}
+
+.client_title{
+    width: 80%;
+}
+
+.client_title_main{
+    margin-right: 2%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #0A083A;
+}
+
+.client_title_secondary{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
     color: #6C6B6B;
 }

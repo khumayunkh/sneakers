@@ -48,7 +48,7 @@ function Header(){
                 <div className={style.client}>
                     <div className={style.client_in}>
                         <img src={client}/>
-                        <h1 className="client_title">
+                        <h1 className={style.client_title}>
                             <span className={style.client_title_main}>Joan</span>
                             <span className={style.client_title_secondary}> 
                                 has just purchased
