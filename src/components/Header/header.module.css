@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.menu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_in{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #0A083A;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    transition: .2s all;
+    cursor: pointer;
+}
+
+.menu_in:hover{
+    color: #FF3C78;
+}
+
+.search{
+    cursor: pointer;
+}
