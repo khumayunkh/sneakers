@@ -4,14 +4,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 800px;
 }
 
 .features{
-    margin-top: 5%;
     width: 80%;
+    height: 75%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: space-between; 
 }
 
 .title{
@@ -41,7 +43,7 @@
 }
 
 .products{
-    margin-top: 2%;
+    margin-top: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,6 +78,39 @@
     height: 116px;
     border-radius: 50%;
     background: linear-gradient(270deg, #FE7831 0%, #FFDEBE 100%);
+}
+
+.back_2{
+    z-index: 1;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #41df44 0%, #bdf9c0 100%);
+}
+
+.back_3{
+    z-index: 1;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #fe3131 0%, #ffbebe 100%);
+}
+
+.back_4{
+    z-index: 1;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #314cfe 0%, #becaff 100%);
 }
 
 .product_title{
