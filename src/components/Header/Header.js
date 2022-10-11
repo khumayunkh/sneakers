@@ -30,11 +30,17 @@ function Header(){
                     </div>
                     <div className={style.check}>
                         <div className={style.check_in}>
-                            <input type="checkbox"/>
+                            <div className={style.round}>
+                                <input type="checkbox" checked id="checkbox" />
+                                <label for="checkbox"></label>
+                            </div>
                             <h3>Free shipping</h3>
                         </div>
                         <div className={style.check_in}>
-                            <input type="checkbox"/>
+                            <div className={style.round}>
+                                <input type="checkbox" checked id="checkbox_2"/>
+                                <label for="checkbox"></label>
+                            </div>
                             <h3>Free returns</h3>
                         </div>
                     </div>
