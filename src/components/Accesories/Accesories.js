@@ -8,6 +8,7 @@ function Accesories(){
         <>
         <div className={style.cantainer}>
             <div className={style.accesories_football}>
+                <div className={style.football_back}></div>
                 <div className={style.accesories_in_football}>
                     <img src={football}/>
                     <div className={style.football}>
@@ -20,8 +21,9 @@ function Accesories(){
                     </div>
                 </div>
             </div>
-            <div className={style.volley}>
-                <div className={style.volley}>
+            <div className={style.accesories_volley}>
+                <div className={style.volley_back}></div>
+                <div className={style.accesories_in_volley}>
                     <img src={volley}/>
                     <div className={style.volley}>
                         <h4 className={style.title_volley}>Accesories</h4>

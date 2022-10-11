@@ -6,6 +6,7 @@
 }
 
 .accesories_football{
+    position: relative;
     width: 50%;
     background: #02BE83;
     height: 100%;
@@ -17,6 +18,16 @@
     width: 80%;
     display: flex;
     align-items: center;
+}
+
+.football_back{
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: -.1rem;
+    width: 140px;
+    height: 70px;
+    background: linear-gradient(270deg, #02BE83 0%, #B3F6DC 100%);
 }
 
 .football{
@@ -71,3 +82,83 @@
     line-height: 24px;
     color: #FFFFFF;    
 }
+
+.accesories_volley{
+    position: relative;
+    width: 50%;
+    background: #0A083A;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.volley_back{
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    z-index: 1;
+    position: absolute;
+    left: .4rem;
+    opacity: .5;
+    width: 140px;
+    height: 70px;
+    background: linear-gradient(97.49deg, rgba(138, 168, 248, 0.6) -0.43%, rgba(49, 91, 255, 0.6) 144.53%);
+}
+
+.accesories_in_volley{
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.volley{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.title_volley{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 4px;
+    color: #02BE83;
+}
+
+.volley h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 6px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.subtitle{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.volley button{
+    margin-top: 3%;
+    border: none;
+    width: 180px;
+    height: 46.3px;
+    left: 474px;
+    top: 288px;
+    background: #02BE83;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;    
+}
+
