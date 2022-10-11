@@ -39,3 +39,60 @@
     line-height: 32px;
     color: #FF3C78;
 }
+
+.products{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sneakers_in{
+    position: relative;
+}
+.sneakers{
+    z-index: 2;
+    top: -20px;
+    position: absolute;
+    width: 293px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.back{
+    z-index: 1;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    width: 116px;
+    height: 116px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #FE7831 0%, #FFDEBE 100%);
+}
+
+.product_title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #0A083A;
+}
+
+.price{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 4px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+}
