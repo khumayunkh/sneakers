@@ -1,9 +1,9 @@
 .container{
     width: 100%;
     background: white;
-    margin-top: -1%;
-    height: 448px;
+    height: 948px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -24,4 +24,80 @@
     line-height: 56px;
     letter-spacing: -0.04em;
     color: #0A083A;
+}
+
+.seller_sneakers{
+    margin-top: 3%;
+    width: 90%;
+    align-self: start;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sneakers{
+    position: relative;
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.back{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    z-index: 1;
+    position: absolute;
+    width: 50%;
+    height: 500px;
+    background: linear-gradient(270deg, #ee2e18 0%, #ffbebe 100%);
+}
+
+.sneakers img{
+    z-index: 2;
+    align-self: center;
+}
+
+.info{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.info_title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+}
+
+.price{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+}
+
+.btn{
+    border: none;
+    margin-top: 5%;
+    width: 180px;
+    height: 46.3px;
+    left: 1015px;
+    top: 422px;
+    background: #315BFF;
+    border-radius: 4px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
