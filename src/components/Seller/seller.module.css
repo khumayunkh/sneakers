@@ -46,12 +46,12 @@
 
 .sneakers:hover .sneakers_img{
     position: relative;
-    transform: translateX(400px);
+    transform: translateX(45%);
 }
 
 .sneakers:hover .back{
     position: absolute;
-    width: 90%;
+    width: 85%;
 }
 
 /* ======================== */
