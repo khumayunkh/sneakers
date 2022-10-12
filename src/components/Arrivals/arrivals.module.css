@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    height: 400px;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,6 +8,7 @@
 }
 
 .header{
+    height: 50%;
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -50,4 +51,141 @@
     font-size: 16px;
     line-height: 24px;
     color: #6C6B6B;
+}
+
+.arrivals{
+    width: 100%;
+    background: white;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrivals_in{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sneakers{
+    position: relative;
+    top: -250px;
+    width: 23%;
+}
+
+.sneakers_img_1{
+    position: relative;
+    width: 263px;
+    height: 360px;
+    background: linear-gradient(270deg, #FE7831 0%, #FFDEBE 100%);
+    border-radius: 24px;
+}
+
+.sneakers_img_1 h2{
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    top: -10px;
+    left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.sneakers_img_1 img{
+    position: absolute;
+    right: -60px;
+}
+
+
+.sneakers_img_2{
+    position: relative;
+    width: 263px;
+    height: 360px;
+    background: linear-gradient(97.49deg, #8AA8F8 -0.43%, #315BFF 144.53%);
+    border-radius: 24px;
+}
+
+.sneakers_img_2 h2{
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    top: -10px;
+    left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.sneakers_img_2 img{
+    position: absolute;
+    right: -60px;
+}
+
+
+.sneakers_img_3{
+    position: relative;
+    width: 263px;
+    height: 360px;
+    background: linear-gradient(270deg, #02BE83 0%, #B3F6DC 100%);
+    border-radius: 24px;
+}
+
+.sneakers_img_3 h2{
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    top: -10px;
+    left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.sneakers_img_3 img{
+    position: absolute;
+    right:-150px;
+    top: -70px;
+}
+
+.sneakers_img_4{
+    position: relative;
+    width: 263px;
+    height: 360px;
+    background: linear-gradient(270deg, #FF3C78 2.8%, #FFB2B2 100%);
+    border-radius: 24px;
+}
+
+.sneakers_img_4 h2{
+    position: absolute;
+    width: 50px;
+    height: 56px;
+    top: -10px;
+    left: 20px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.sneakers_img_4 img{
+    position: absolute;
+    right: -60px;
 }
