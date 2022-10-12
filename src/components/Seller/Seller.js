@@ -15,7 +15,7 @@ function Seller(){
             <div className={style.seller_sneakers}>
                 <div className={style.sneakers}>
                     <div className={style.back}></div>
-                    <img src={sneakers}/>    
+                    <img className={style.sneakers_img} src={sneakers}/>    
                 </div>
                 <div className={style.info}>
                     <img src={star}/>

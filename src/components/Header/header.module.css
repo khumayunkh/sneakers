@@ -4,7 +4,34 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url('./../../img/yellow_sneakers.png');
+    background-size: 1000px;
+    background-position: 800px -50px;
+    background-repeat: no-repeat;
+    /* ========animation============= */
+    animation-name: image;
+    animation-delay: 0s;
+    animation-duration: 2.5s;
+    animation-timing-function: ease;
 }
+
+/* ========animation=========== */
+
+@keyframes image{
+    0%{
+        opacity: 0;
+        background-position: -100px -50px;
+    }
+    80%{
+        background-position: 1000px -50px;
+    }
+    100%{
+        opacity: 1;
+        background-position: 800px -50px;   
+    }
+}
+
+/* ============================== */
 
 .header{
     display: flex;
@@ -48,10 +75,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('./../../img/yellow_sneakers.png');
-    background-size: 1000px;
-    background-position: 600px -160px;
-    background-repeat: no-repeat;
 }
 
 .information h1{

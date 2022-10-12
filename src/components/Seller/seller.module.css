@@ -42,6 +42,20 @@
     align-items: center;
 }
 
+/* ==========hover========= */
+
+.sneakers:hover .sneakers_img{
+    position: relative;
+    transform: translateX(400px);
+}
+
+.sneakers:hover .back{
+    position: absolute;
+    width: 90%;
+}
+
+/* ======================== */
+
 .back{
     border-bottom-right-radius: 50px;
     border-top-right-radius: 50px;
@@ -50,11 +64,13 @@
     width: 50%;
     height: 500px;
     background: linear-gradient(270deg, #ec5f95 0%, #ffbebe 100%);
+    transition: all .7s;
 }
 
-.sneakers img{
+.sneakers_img{
     z-index: 2;
     align-self: center;
+    transition: all .7s;
 }
 
 .info{
