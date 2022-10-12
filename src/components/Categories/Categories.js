@@ -22,21 +22,21 @@ function Categories(){
                     <h3 className={style.sneakers_title}>Sneakers Collection</h3>
                     <p>120 products</p>
                     <h5 className={style.sneakers_sub}>See collection</h5>
-                    <img src={sneakers}/>
+                    <img className={style.sneakers} src={sneakers}/>
                 </div>
                 <div className={style.products}>
                     <div className={style.back2}></div>
                     <h3 className={style.ball_title}>Football Collection</h3>
                     <p>80 products</p>
                     <h5 className={style.ball_sub}>See collection</h5>
-                    <img src={ball}/>
+                    <img className={style.ball} src={ball}/>
                 </div>
                 <div className={style.products}>
                     <div className={style.back3}></div>
                     <h3 className={style.volley_title}>Volleyball Collection</h3>
                     <p>160 products</p>
                     <h5 className={style.volley_sub}>See collection</h5>
-                    <img src={tShird}/>
+                    <img className={style.volley} src={tShird}/>
                 </div>
             </div>
         </div>

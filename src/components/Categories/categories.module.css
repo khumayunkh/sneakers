@@ -39,21 +39,23 @@
 }
 
 .collection{
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .products{
-    width: 30%;
+    position: relative;
+    width: 28%;
     height: 382px;
     background: #F5F5F5;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
-    padding: 1%;
+    justify-content: start;
+    padding-left: 2%;
 }
 
 .products p{
@@ -61,8 +63,19 @@
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 2px;
     color: #6C6B6B;
+}
+
+.back1{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(270deg, #FE7831 0%, #FFDEBE 100%);
+    transform: rotate(40deg);
 }
 
 .sneakers_title{
@@ -76,3 +89,94 @@
     color: #315BFF;
 }
 
+.sneakers_sub{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2px;
+    text-decoration-line: underline;
+    color: #315BFF;
+}
+
+.sneakers{
+    position: relative;
+    top: -70px;
+    left: -40px;
+}
+
+
+.back2{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(97.49deg, #8AA8F8 -0.43%, #315BFF 144.53%);
+    transform: rotate(40deg);
+}
+
+.ball_title{
+    width: 40%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    color: #FE7831;
+}
+
+.ball_sub{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2px;
+    text-decoration-line: underline;
+    color: #FE7831;
+}
+
+.ball{
+    position: relative;
+    top: -70px;
+}
+
+.back3{
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(270deg, #02BE83 0%, #B3F6DC 100%);
+    transform: rotate(40deg);
+}
+
+.volley_title{
+    width: 40%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    color: #FF3C78;
+}
+
+.volley_sub{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 2px;
+    text-decoration-line: underline;
+    color: #FF3C78;
+}
+
+.volley{
+    position: relative;
+    top: -50px;
+    left: 70px;    
+}
