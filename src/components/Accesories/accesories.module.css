@@ -3,6 +3,8 @@
     height: 448px;
     display: flex;
     justify-content: flex-start;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .accesories_football{
@@ -112,7 +114,7 @@
 .volley{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 40%;
 }
@@ -161,4 +163,3 @@
     line-height: 24px;
     color: #FFFFFF;    
 }
-
