@@ -60,6 +60,7 @@
 .sneakers_in{
     position: relative;
 }
+
 .sneakers{
     z-index: 2;
     top: -20px;
@@ -67,7 +68,9 @@
     width: 293px;
     height: 180px;
     border-radius: 50%;
+    transition: all .5s;
 }
+
 
 .back{
     z-index: 1;
@@ -131,3 +134,13 @@
     letter-spacing: -0.04em;
     color: #0A083A;
 }
+
+
+
+/* ========hover=========== */
+
+.sneakers:hover{
+    transform: scale(1.2);
+}
+
+/* ========================= */
