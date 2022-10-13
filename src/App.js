@@ -2,6 +2,7 @@ import './App.css';
 import Accesories from './components/Accesories/Accesories';
 import Arrivals from './components/Arrivals/Arrivals';
 import Benefits from './components/Benefits/Benefits';
+import Brands from './components/Brands/Brands';
 import Categories from './components/Categories/Categories';
 import Features from './components/Features/Features';
 import Header from './components/Header/Header';
@@ -17,6 +18,7 @@ function App() {
       <Arrivals/>
       <Benefits/>
       <Categories/>
+      <Brands/>
     </div>
   );
 }
