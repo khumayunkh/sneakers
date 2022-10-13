@@ -1,6 +1,7 @@
 import React from "react";
 import style from './subscribe.module.css'
 import sneakers from './../../img/subscribeSneakers.png'
+import Footer from "../Footer/Footer";
 
 function Subscribe(){
     return(

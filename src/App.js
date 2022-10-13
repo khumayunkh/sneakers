@@ -5,6 +5,7 @@ import Benefits from './components/Benefits/Benefits';
 import Brands from './components/Brands/Brands';
 import Categories from './components/Categories/Categories';
 import Features from './components/Features/Features';
+import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import Seller from './components/Seller/Seller';
 import Subscribe from './components/Subscribe/Subscribe';
@@ -21,6 +22,7 @@ function App() {
       <Categories/>
       <Brands/>
       <Subscribe/>
+      <Footer/>
     </div>
   );
 }

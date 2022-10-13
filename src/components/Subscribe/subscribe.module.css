@@ -41,6 +41,7 @@
 }
 
 .subscribe_email{
+    justify-self: end;
     height: 70%;
     width: 100%;
     display: flex;
