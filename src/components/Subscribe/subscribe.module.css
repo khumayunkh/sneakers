@@ -8,17 +8,75 @@
 
 .subscribe{
     position: relative;
-    top: -400px;
+    top: -350px;
+    width: 80%;
+    height: 700px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    padding: 5%;
-    width: 60%;
-    height: 500px;
     background: linear-gradient(97.49deg, #8AA8F8 -0.43%, #315BFF 144.53%);
     mix-blend-mode: normal;
     border-bottom-right-radius: 30px;
     border-top-right-radius: 30px;
 }
 
+.subscribe_in{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.subscribe h2{
+    width: 45%;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+}
+
+.subscribe_email{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.email{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.email input{
+    width: 450px;
+    height: 86px;
+}
+
+.subscribe_email img{
+    width: 60%;
+    z-index: 2;
+    position: relative;
+    left: 17rem;
+    bottom: 5rem;
+}
+
+.back1{
+    z-index: 1;
+    position: relative;
+    left: -1rem;
+    bottom: -1rem;
+    width: 400px;
+    height: 300px;
+    border-radius: 50%;
+    background: linear-gradient(270deg, #fe3131 0%, #ffbebe 100%);
+}
