@@ -1,0 +1,24 @@
+.container{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.subscribe{
+    position: relative;
+    top: -400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 5%;
+    width: 60%;
+    height: 500px;
+    background: linear-gradient(97.49deg, #8AA8F8 -0.43%, #315BFF 144.53%);
+    mix-blend-mode: normal;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
