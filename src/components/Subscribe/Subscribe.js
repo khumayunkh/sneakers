@@ -6,7 +6,6 @@ function Subscribe(){
     return(
         <>
         <div className={style.container}>
-            <div className={style.back}></div>
             <div className={style.subscribe}>
                 <div className={style.subscribe_in}>
                 <h2>Subscribe now to get the latest updates</h2>
