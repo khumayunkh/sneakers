@@ -163,3 +163,50 @@
     line-height: 24px;
     color: #FFFFFF;    
 }
+
+@media(max-width:1460px){
+    .accesories_in_football{
+        width: 90%;
+    }
+    .accesories_football img{
+        width: 60%;
+    }
+    .football{
+        width: 60%;
+    }
+    .accesories_in_volley{
+        width: 90%;
+    }
+    .accesories_in_volley img{
+        width: 60%;
+    }
+    .volley{
+        width: 60%;
+    }
+}
+
+
+@media(max-width:1080px){
+    .football h3{
+        font-size: 40px;
+    }
+    .volley h3{
+        font-size: 40px;
+    }
+}
+
+@media(max-width:880px){
+    .cantainer{
+        width: 100%;
+        height: 908px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .accesories_football{
+        width: 100%;
+    }
+    .accesories_volley{
+        width: 100%;
+    }
+}
