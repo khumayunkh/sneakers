@@ -29,7 +29,7 @@ function Arrivals(){
                         <h3 className={style.name}>Adidas Falcon Shoes for men - 2021 Edition</h3>
                         <h3 className={style.price}>$120.50</h3>
                     </div>
-                    <div className={style.sneakers}>
+                    <div className={style.sneakers2}>
                         <div className={style.sneakers_img_2}>
                             <h2>02</h2>
                             <img src={sneakers3}/>
@@ -38,7 +38,7 @@ function Arrivals(){
                         <h3 className={style.name}>Adidas Falcon Shoes for men - 2021 Edition</h3>
                         <h3 className={style.price}>$120.50</h3>
                     </div>
-                    <div className={style.sneakers}>
+                    <div className={style.sneakers3}>
                         <div className={style.sneakers_img_3}>
                             <h2>03</h2>
                             <img src={sneakers2}/>
@@ -47,7 +47,7 @@ function Arrivals(){
                         <h3 className={style.name}>Adidas Falcon Shoes for men - 2021 Edition</h3>
                         <h3 className={style.price}>$120.50</h3>
                     </div>
-                    <div className={style.sneakers}>
+                    <div className={style.sneakers4}>
                         <div className={style.sneakers_img_4}>
                             <h2>04</h2>
                             <img src={sneakers}/>
