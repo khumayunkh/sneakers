@@ -119,5 +119,62 @@
 }
 
 @media(max-width:870px){
+    .container{
+        height: 1000px;
+        margin-top: -15%;
+        width: 100%;
+        background: white;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .benefits{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        left: 0px;
+    }
+    .title{
+        text-align: center;
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+    .title img{
+        position: relative;
+        left: 70px;
+        transform: scale(.8);
+    }
+    .title h2{
+        width: 100%;
+        text-align: center;
+    }
+}
 
+@media(max-width:580px){
+    .title img{
+        position: relative;
+        left: 50px;
+        transform: scale(.8);
+    }
+}
+
+@media(max-width:500px){
+    .title img{
+        position: relative;
+        left: -30px;
+        transform: scale(.7);
+    }
+    .benefits_img{
+        justify-self: start;
+        transform: scale(.6);
+    }
+}
+
+@media(max-width:450px){
+    .title img{
+        position: relative;
+        left: -60px;
+        transform: scale(.7);
+    }
 }
