@@ -185,6 +185,7 @@
 
 @media(max-width:480px){
     .container{
+        margin-top: 1%;
         height: 1000px;
         display: flex;
         justify-content: center;
