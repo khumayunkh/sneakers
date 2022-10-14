@@ -210,3 +210,41 @@
         width: 100%;
     }
 }
+
+@media(max-width:450px){
+    .accesories_in_football{
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+    }
+    .football{
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title_volley{
+        line-height: 1px
+    }
+    
+    .volley h3{
+        font-size: 35px;
+        line-height: 6px
+    }
+    .accesories_in_volley{
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
+        text-align: center;
+    }
+    .volley{
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
