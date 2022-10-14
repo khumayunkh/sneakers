@@ -24,14 +24,14 @@ function Categories(){
                     <h5 className={style.sneakers_sub}>See collection</h5>
                     <img className={style.sneakers} src={sneakers}/>
                 </div>
-                <div className={style.products}>
+                <div className={style.products2}>
                     <div className={style.back2}></div>
                     <h3 className={style.ball_title}>Football Collection</h3>
                     <p>80 products</p>
                     <h5 className={style.ball_sub}>See collection</h5>
                     <img className={style.ball} src={ball}/>
                 </div>
-                <div className={style.products}>
+                <div className={style.products3}>
                     <div className={style.back3}></div>
                     <h3 className={style.volley_title}>Volleyball Collection</h3>
                     <p>160 products</p>

@@ -70,6 +70,51 @@
     color: #6C6B6B;
 }
 
+
+.products2{
+    position: relative;
+    width: 28%;
+    height: 382px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 2%;
+}
+
+.products2 p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2px;
+    color: #6C6B6B;
+}
+
+.products3{
+    position: relative;
+    width: 28%;
+    height: 382px;
+    background: #F5F5F5;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 2%;
+}
+
+.products3 p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 2px;
+    color: #6C6B6B;
+}
+
 .back1{
     position: absolute;
     top: 50px;
@@ -113,11 +158,11 @@
     top: -100px;
 }
 
-.products:hover .ball{
+.products3:hover .ball{
     top: -100px;
 }
 
-.products:hover .volley{
+.products3:hover .volley{
     top: -100px;
 }
 
@@ -228,6 +273,14 @@
         width: 28%;
         height: 352px;
     }
+    .products2{
+        width: 28%;
+        height: 352px;
+    }
+    .products3{
+        width: 28%;
+        height: 352px;
+    }
 }
 
 @media(max-width:1190px){
@@ -285,9 +338,33 @@
 }
 
 @media(max-width:800px){
+    .container{
+        width: 100%;
+        height: 800px;
+    }
+    .title{
+        height: 20%;
+    }
+    .title h3{
+        width: 100%;
+    }
+    .title h2{
+        font-size:40px ;
+    }
     .products{
         width: 28%;
         height: 300px;
+    }
+    .products2{
+        width: 28%;
+        height: 300px;
+    }
+    .products3{
+        width: 28%;
+        height: 300px;
+    }
+    .collection{
+        height: 80%;
     }
     .collection img{
         transform: scale(.6);
@@ -309,5 +386,117 @@
         height: 30px;
         top: 40px;
         right: 10px;
+    }
+    .sneakers{
+        top: -70px;
+        left: -150px;
+    }
+    .ball{
+        top: -100px;
+        left: -120px;
+    }
+    .volley{
+        top: -50px;
+        left: -80px;  
+    }
+}
+
+@media(max-width:700px){
+    .products2{
+        display: none;
+    }
+    .products3{
+        display: none;
+    }
+    .collection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .products{
+        width: 80%;
+        height: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .collection img{
+        transform: scale(1);
+        top: 70px;
+        left: -50px;
+    }
+
+    .products:hover .sneakers{
+        top: -10px;
+    }
+
+    .products h3{
+        font-size: 24px;
+        width: 100%;
+        height: 10%;
+    }
+    .products h5{
+        font-size:20px;
+    }
+    .products p{
+        font-size: 18px;
+    }
+    .back1{
+        position: absolute;
+        top: 200px;
+        left: 20px;
+        border-radius: 0 0 50% 50% / 0 0 100% 100%;
+        width: 90px;
+        height: 45px;
+        background: linear-gradient(270deg, #FE7831 0%, #FFDEBE 100%);
+        transform: rotate(40deg);
+    }
+}
+
+@media(max-width:520px){
+    .title h2{
+        font-size:30px ;
+    }
+    .title h3{
+        font-size: 16px;
+    }
+    .collection img{
+        transform: scale(.9);
+        top: 20px;
+        left: -50px;
+    }
+    .products{
+        width: 80%;
+        height: 70%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media(max-width:400px){
+    .products{
+        width: 80%;
+        height: 60%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+    .products h3{
+        font-size: 20px;
+        width: 100%;
+        height: 10%;
+    }
+    .products h5{
+        font-size:16px;
+    }
+    .products p{
+        font-size: 14px;
+    }
+    .collection img{
+        transform: scale(.7);
+        top: -10px;
+        left: -50px;
     }
 }
