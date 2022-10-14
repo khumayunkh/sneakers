@@ -8,7 +8,7 @@ function Benefits(){
         <>
         <div className={style.container}>
             <div className={style.benefits}>
-                <img src={benefits}/>
+                <img className={style.benefits_img} src={benefits}/>
                 <div className={style.title}>
                     <h2>Why choose our shop</h2>
                     <h4>For explosive events (

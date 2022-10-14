@@ -42,3 +42,82 @@
     color: #6C6B6B;
 }
 
+
+@media(max-width:1260px){
+    .title h2{
+        font-size: 35px;
+    }
+    
+    .title h4{
+        width: 100%;
+        font-size: 18px;
+    }
+    .benefits_img{
+        transform: scale(.8);
+    }
+    .title img{
+        position: relative;
+        align-self: start;
+        left: -60px;
+        transform: scale(.8);
+    }
+}
+
+@media(max-width:1110px){
+    .benefits{
+        position: relative;
+        left: -40px;
+        justify-content: flex-start;
+    }
+    .title{
+        width: 50%;
+    }
+    .title h2{
+        font-size: 30px;
+    }
+    
+    .title h4{
+        width: 100%;
+        font-size: 18px;
+    }
+    .benefits_img{
+        justify-self: start;
+        transform: scale(.8);
+    }
+    .title img{
+        position: relative;
+        align-self: start;
+        left: -60px;
+        transform: scale(.7);
+    }
+}
+
+
+@media(max-width:1000px){
+    .benefits{
+        position: relative;
+        left: -80px;
+        justify-content: flex-start;
+    }
+    .title{
+        position: relative;
+        left: -60px;
+        width: 50%;
+    }
+    .title h2{
+        font-size: 26px;
+    }
+    
+    .title h4{
+        width: 100%;
+        font-size: 15px;
+    }
+    .benefits_img{
+        justify-self: start;
+        transform: scale(.7);
+    }
+}
+
+@media(max-width:870px){
+
+}
