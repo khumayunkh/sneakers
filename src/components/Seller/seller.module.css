@@ -117,3 +117,115 @@
     line-height: 24px;
     color: #FFFFFF;
 }
+
+@media(max-width:1250px){
+    .container{
+        justify-content: space-around;
+        align-items: center;
+    }
+    .title h2{
+        font-size: 40px;
+    }
+    
+    .seller_sneakers{
+        height: 60%;
+        display: flex;
+        align-items: center;
+    }
+    .sneakers_img{
+        height: 100%;
+        width: 80%;
+    }   
+}
+
+
+@media(max-width:1000px){
+    .info{
+        text-align: center;
+        display: flex;
+        justify-content: end;
+        align-items: end;
+        width: 30%;
+    }
+}
+
+@media(max-width:770px){
+    .container{
+        height: 700px;
+    }
+    .title h2{
+        font-size: 30px;
+    }
+    .info{
+        width: 50%;
+        align-items: center;
+        
+    }
+    .back{
+        width: 50%;
+        height: 300px;
+    }
+}
+
+@media(max-width:610px){
+    .title{
+        flex-direction: column;
+    }
+    .title h2{
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+    .btn{
+        width: 160px;
+        height: 38.3px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width:480px){
+    .container{
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .title{
+        margin-bottom: -30%;
+        height: 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title h2{
+        font: 20px;
+    }
+    .sneakers{
+        height: 40%;
+        width: 100%;
+    }
+    .sneakers_img{
+        width: 100%;
+    }
+    .sneakers:hover .sneakers_img{
+        position: relative;
+        transform: translateX(0%);
+    }
+    .seller_sneakers{
+        margin: 0 auto;
+        position: relative;
+        height: 80%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .info{
+        width:100%;
+    }
+}
