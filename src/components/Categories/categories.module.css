@@ -200,3 +200,114 @@
     transition: all .5s;  
 }
 
+@media(max-width:1390px){
+    .sneakers_title{
+        font-size: 28px;
+    }
+    
+    .sneakers_sub{
+        font-size: 18px;
+    }
+
+    .ball_title{
+        font-size: 28px;
+    }
+    .ball_sub{
+        font-size: 18px;
+    }
+    .volley_title{
+        font-size: 28px;
+    }
+    .volley_sub{
+        font-size: 18px;
+    }
+    .collection img{
+        transform: scale(.8);
+    }
+    .products{
+        width: 28%;
+        height: 352px;
+    }
+}
+
+@media(max-width:1190px){
+    .collection h2{
+        font: 24px;
+    }
+    .collection h5{
+        font: 16px;
+    }
+    .back1{
+        width: 80px;
+        height: 40px;
+    }
+    .back2{
+        width: 80px;
+        height: 40px;
+    }
+    .back3{
+        width: 80px;
+        height: 40px;
+    }
+    .sneakers{
+        position: relative;
+        top: -70px;
+        left: -100px;
+        transition: all .5s;
+    }
+    .ball{
+        position: relative;
+        top: -100px;
+        left: -80px;
+        transition: all .5s;
+    }
+    .volley{
+        position: relative;
+        top: -50px;
+        left: 10px;  
+        transition: all .5s;  
+    }
+}
+
+@media(max-width:1000px){
+    .collection h3{
+        font-size: 20px;
+    }
+    .collection p{
+        font-size: 12px;
+    }
+    .collection h5{
+        font-size: 14px;
+    }
+    .collection img{
+        transform: scale(.7);
+    }
+}
+
+@media(max-width:800px){
+    .products{
+        width: 28%;
+        height: 300px;
+    }
+    .collection img{
+        transform: scale(.6);
+    }
+    .back1{
+        width: 60px;
+        height: 30px;
+        top: 40px;
+        right: 10px;
+    }
+    .back2{
+        width: 60px;
+        height: 30px;
+        top: 40px;
+        right: 10px;
+    }
+    .back3{
+        width: 60px;
+        height: 30px;
+        top: 40px;
+        right: 10px;
+    }
+}
