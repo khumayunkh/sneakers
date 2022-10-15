@@ -8,6 +8,7 @@ function Footer(){
         <div className={style.container}>
             <div className={style.footer}>
                 <img src={logo}/>
+                <h4 className={style.mobile}>Our shop is the best choice for buying footwear.</h4>
                 <div className={style.home}>
                     <h3>Home</h3>
                     <p>Support Center</p>

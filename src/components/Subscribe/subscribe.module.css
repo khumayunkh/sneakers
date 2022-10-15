@@ -221,6 +221,9 @@
 }
 
 @media(max-width:450px){
+    .container{
+        height: 700px;
+    }
     .subscribe h2{
         width: 100%;
         font-size: 26px;
