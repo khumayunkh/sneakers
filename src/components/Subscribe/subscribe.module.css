@@ -42,7 +42,7 @@
 
 .subscribe_email{
     justify-self: end;
-    height: 70%;
+    height: 55%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -51,7 +51,7 @@
 
 
 .email{
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,7 +63,7 @@
     border: none;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    width: 450px;
+    width: 99%;
     height: 86px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -78,7 +78,7 @@
     background-color: #315BFF;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-    width: 456px;
+    width: 100%;
     height: 90px;
     font-family: 'Work Sans';
     font-style: normal;
@@ -88,21 +88,173 @@
     color: #FFFFFF;
 }
 
-.subscribe_email img{
-    width: 100%;
-    z-index: 2;
+.sneakers{
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     position: relative;
-    left: 20rem;
-    bottom: 5rem;
+}
+
+.subscribe_email img{
+    transform: scale(1);
+    z-index: 2;
 }
 
 .back1{
-    width: 70%;
+    width: 300px;
     z-index: 1;
-    position: relative;
-    left: -1rem;
-    bottom: -1rem;
+    position: absolute;
+    left: 28rem;
+    bottom: 6rem;
     height: 300px;
     border-radius: 50%;
     background: linear-gradient(270deg, #fe3131 0%, #ffbebe 100%);
+}
+
+
+@media(max-width:1640px){
+    .back1{
+        width: 300px;
+        z-index: 1;
+        position: absolute;
+        left: 20rem;
+        bottom: 6rem;
+        height: 300px;
+        border-radius: 50%;
+        background: linear-gradient(270deg, #fe3131 0%, #ffbebe 100%);
+    }
+    .subscribe_email img{
+        transform: scale(.9);
+        z-index: 2;
+    }
+}
+@media(max-width:1370px){
+    .back1{
+        left: 15rem;
+        bottom: 6rem;
+    }
+}
+
+
+@media(max-width:1140px){
+    .subscribe h2{
+        width: 70%;
+        font-size: 40px;
+    } 
+    .email input{
+        height: 60px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .email button{
+        height: 60px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .back1{
+        width: 240px;
+        z-index: 1;
+        left: 10rem;
+        bottom: 6rem;
+    }
+    .subscribe_email img{
+        transform: scale(.8);
+        z-index: 2;
+    }
+}
+
+@media(max-width:910px){
+    .subscribe{
+        border-radius: 0%;
+        width: 100%;
+        height: 1000px;
+    }
+    .subscribe h2{
+        height: 20%;
+        text-align: center;
+        width: 100%;
+    }
+    .subscribe_email{
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .email{
+        width: 60%;
+    }
+}
+
+
+@media(max-width:700px){
+    .back1{
+        width: 240px;
+        z-index: 1;
+        left: 5rem;
+        bottom: 6rem;
+    }
+}
+
+
+@media(max-width:600px){
+    .subscribe h2{
+        width: 100%;
+        font-size: 30px;
+    } 
+    .email{
+        margin-top: 5%;
+        width: 80%;
+    }
+    .sneakers img{
+        position: relative;
+        left: 5rem;
+    }
+    .email input{
+        height: 50px;
+        font-size: 18px;
+    }
+    .email button{
+        height: 50px;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:450px){
+    .subscribe h2{
+        width: 100%;
+        font-size: 26px;
+    } 
+    .sneakers img{
+        position: relative;
+        left: 6rem;
+    }
+    .email input{
+        height: 50px;
+        font-size: 15px;
+    }
+    .email button{
+        height: 50px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .back1{
+        width: 240px;
+        z-index: 1;
+        left: 1rem;
+        bottom: 6rem;
+    }
+}
+
+@media(max-width:390px){
+    .sneakers img{
+        position: relative;
+        left: 9rem;
+    }
+    .back1{
+        width: 240px;
+        z-index: 1;
+        left: 1rem;
+        bottom: 6rem;
+    }
 }

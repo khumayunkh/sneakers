@@ -15,8 +15,10 @@ function Subscribe(){
                         <input className={style.input} placeholder="Enter you email"/>
                         <button>SUBSCRIBE</button>
                     </div>
-                    <img src={sneakers}/>
-                    <div className={style.back1}></div>
+                    <div className={style.sneakers}>
+                        <img src={sneakers}/>
+                        <div className={style.back1}></div>
+                    </div>    
                 </div>
                 </div>
             </div>
