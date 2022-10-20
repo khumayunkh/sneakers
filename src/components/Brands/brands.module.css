@@ -106,7 +106,7 @@
 }
 
 
-@media(max-width:730px){
+@media(max-width:735px){
     .title{
         font-size: 40px;
     }
@@ -117,7 +117,7 @@
 
 @media(max-width:670px){
     .brands_in{
-        overflow: scroll;
+        overflow-x: scroll;
     }
     .brand{
         width: 1000px;
