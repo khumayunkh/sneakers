@@ -120,7 +120,7 @@
         overflow-x: scroll;
         scrollbar-color: green #ebebea;
     }
-    /* .brands_in::-webkit-scrollbar-track {
+    .brands_in::-webkit-scrollbar-track {
         width: 50rem;
         background-color: #ebebea;
         border-radius: 0.8rem;
@@ -129,7 +129,7 @@
     .brands_in::-webkit-scrollbar-thumb {
         background: green;
         border-radius: 0.8rem;
-    } */
+    }
     .brand{
         width: 1000px;
     }
