@@ -153,7 +153,7 @@
         border-bottom-right-radius: 2rem;
     }
     .back1{
-        width: 240px;
+        width: 24rem;
         z-index: 1;
         left: 10rem;
         bottom: 6rem;
@@ -200,7 +200,7 @@
 @media(max-width:600px){
     .subscribe h2{
         width: 100%;
-        font-size: 30px;
+        font-size: 3rem;
     } 
     .email{
         margin-top: 5%;
@@ -237,7 +237,7 @@
         font-size: 15px;
     }
     .email button{
-        height: 50px;
+        height: 5rem;
         font-size: 15px;
         font-weight: 800;
     }
