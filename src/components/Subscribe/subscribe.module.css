@@ -140,17 +140,17 @@
 @media(max-width:1140px){
     .subscribe h2{
         width: 70%;
-        font-size: 40px;
+        font-size: 4rem;
     } 
     .email input{
-        height: 60px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        height: 6rem;
+        border-top-left-radius: 2rem;
+        border-top-right-radius: 2rem;
     }
     .email button{
-        height: 60px;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
+        height: 6rem;
+        border-bottom-left-radius: 2rem;
+        border-bottom-right-radius: 2rem;
     }
     .back1{
         width: 240px;
@@ -168,7 +168,7 @@
     .subscribe{
         border-radius: 0%;
         width: 100%;
-        height: 1000px;
+        height: 100rem;
     }
     .subscribe h2{
         height: 20%;
