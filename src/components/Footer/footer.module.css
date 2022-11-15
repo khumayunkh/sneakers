@@ -60,10 +60,10 @@
         width: 95%;
     }
     .footer h3{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     .footer p{
-        font-size: 14px;
+        font-size: 1.4rem;
     }
 }
 
@@ -84,7 +84,7 @@
 
 @media(max-width:480px){
     .footer{
-        height: 200px;
+        height: 20rem;
         margin-top: 1%;
         align-items: center;
     }
